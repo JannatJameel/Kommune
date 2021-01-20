@@ -11,7 +11,7 @@ const styles = {
 
 function App() {
   return (
-    <div className="app">
+    <div>
       <h1 style={styles.title}>KOMMUNE</h1>
       <p style={styles.subtitle}>A social dining experience.</p>
       <img style={styles.image} src="images/kommune.jpg"/>
