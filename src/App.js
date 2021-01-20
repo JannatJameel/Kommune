@@ -1,16 +1,20 @@
 const styles = {
-  title : {color: "black", fontWeight: bold, text-align: "center"};
-  subTitle : {}; 
+  title : {color: "black", textAlign: "center"},
+  subtitle : {color: "Red", textAlign: "center"}, 
+  image : {
+    display: "block",
+    marginLeft: "auto",
+    marginRight: "auto",
+    width: "50%"
+  }
 }
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
+    <div className="app">
+      <h1 style={styles.title}>KOMMUNE</h1>
+      <p style={styles.subtitle}>A social dining experience.</p>
+      <img style={styles.image} src="images/kommune.jpg"/>
     </div>
   );
 }
