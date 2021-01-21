@@ -1,8 +1,6 @@
-import styles from "../styles";
 import products from "../products"
 import Meal from "./Meal";
-
-// const Row = styled.
+import {Row} from "../styles";
 
 
 const Kitchens = () => {
@@ -11,7 +9,7 @@ const Kitchens = () => {
     ));
 
     return (
-        <div style={styles.row}> {productsList}</div>
+        <Row>{productsList}</Row>
     );
 };
 

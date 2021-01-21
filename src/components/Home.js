@@ -1,4 +1,4 @@
-import HomeWrapper from "../styles";
+import {HomeWrapper} from "../styles";
 
 const Home = () => {
     return (

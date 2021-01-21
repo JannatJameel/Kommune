@@ -1,7 +1,6 @@
-
 import styled, {createGlobalStyle} from "styled-components"
 
-export const GlobalStyle = createGlobalStyle `
+export const GlobalStyle = createGlobalStyle`
     body{
         background-color: ${(props) => props.theme.backgroundColor};
         color: ${(props) => props.theme.color};
@@ -26,33 +25,22 @@ export const HomeWrapper = styled.div`
     }
 `; 
 
+export const Row = styled.div`
+    align-items : center;
+    justify-content : center;
+    display: flex;
+`;
 
-
-
-
-
-const styles = {
-    title : {color: "black", textAlign: "center"},
-    subtitle : {color: "Red", textAlign: "center"},
-    bodyText : {textAlign: "center"},
-    image : {
-      display: "block",
-      marginLeft: "auto",
-      marginRight: "auto",
-      width: "50%",
-      paddingTop: "30px",
-      paddingBottom: "40px",
-    },
-    menuImages : {
-        width: "300px",
-        height: "200px",
-    },
-    menu : {margin : "10px"},
-    row : {
-        alignItems : "center",
-        justifyContent : "center",
-        display: "flex",
+export const MealsWrapper = styled.div`
+    margin: 10px;
+    img{
+        width: 300px;
+        height: 200px;
     }
-}
- 
-export default styles;
+    h3{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+`;
