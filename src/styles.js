@@ -1,3 +1,34 @@
+
+import styled, {createGlobalStyle} from "styled-components"
+
+export const GlobalStyle = createGlobalStyle `
+    body{
+
+    }
+`;
+
+export const HomeWrapper = styled.div`
+    h1{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+`; 
+
+
+
+
+
+
 const styles = {
     title : {color: "black", textAlign: "center"},
     subtitle : {color: "Red", textAlign: "center"},
